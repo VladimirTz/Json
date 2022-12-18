@@ -1,8 +1,7 @@
 {
-	user_1: {"name":"Vladimir",
-		"last_name":"Tzelobanoff",
-		"patronymic":"Alexsandrovich",
-		"pet_number":2,
-		"salary":1000
-		}
+"name":"Vladimir",
+"last_name":"Tzelobanoff",
+"patronymic":"Alexsandrovich",
+"pet_number":2,
+"salary":1000
 }	
