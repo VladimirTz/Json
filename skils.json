@@ -1,0 +1,8 @@
+{
+"Basic_theory":"SDLS",	
+"Basic_theory":"STLS",	
+"methods":"HTTP",	
+"structure":"Json",		
+"structure":"Xml",
+"API_testing_via_Postman":"Api"
+}
