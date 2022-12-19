@@ -2,6 +2,7 @@
 "name":"Vladimir",
 "last_name":"Tzelobanoff",
 "patronymic":"Alexsandrovich",
+"age":27,
 "pet_number":2,
 "salary":1000
 }	
