@@ -1,5 +1,7 @@
 {
 "ID":"BR1",	
+ "severity" : "Minor",
+ "priority" : "Low",
 "Envinroment":"Windows10",	
 "Precondition":"Открыть сайт",	
 "Title":"Изменение размера шрифта в футере сайта при переходе в другие разделы",		
