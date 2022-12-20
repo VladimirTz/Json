@@ -1,0 +1,55 @@
+Все шаги сценария выполняйте в терминале GitBush, Terminal, в папке под гитом.
+
+1. Создайте текстоовый файл как в первом ДЗ по Terminal:
+touch DZgithub.txt
+2. Сценарий перенесите в этот файл.
+3. На против каждого действия - напишите команду в GitBash
+
+# JSON
+4. Создать внешний репозиторий c названием JSON:
+$ pwd
+/d/GIT/json1
+$ git init Json
+5. Клонировать репозиторий JSON на локальный компьютер:
+$ git clone https://github.com/VladimirTz/Json.git
+6. Внутри локального JSON создать файл “t1.json”:
+$ cd Json ; touch t1.json
+7. Добавить файл под гит:
+$ git status
+$ git add t1.json
+8. Закоммитить файл:
+$ git status
+$ git commit -m "new file t1.json"
+9. Отправить файл на внешний GitHub репозиторий:
+$ git status
+$ git push	
+10. Отредактировать содержание файла “t1.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON:
+$ echo -e "{\n   \"name\" : \"Vladimir\",\n   \"last_name\" : \"Tzelobanoff\",\n   \"patronymic\" : \"Alexsandrovich\",\n   \"age\" : 27,\n   \"pet_number\" : 2,\n   \"salary\" : 1000,\n  }" > t1.json ; cat t1.json
+11. Отправить изменения на внешний репозиторий:
+$ git status
+$ git commit -am "Update t1.json"
+$ git status
+$ git push
+12. Создать файл preferences.json:
+touch preferences.json
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON:
+$ echo -e "{\n   \"muvie\" : \"Professor\",\n   \"soap_opera\" : \"Interns\",\n   \"food\" : \"meat\",\n   \"season\" : \"summer\",\n   \"country\" : \"Italy\"\n  }" > preferences.json ; cat preferences.json
+14. Создать файл skils.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON:
+$ touch skils.json 
+15. Отправить сразу 2 файла на внешний репозиторий:
+$ git status
+$ git add preferences.json skils.json
+$ git status
+$ git commit -m "new files"
+$ git status
+$ git push
+16. На веб интерфейсе создать файл bug_report.json:
+GitHub (Add file - Create new file - Fill in "Name your file")	
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
+GitHub (Write a commit massage and press "Commit new file")
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON:
+GitHub (Go to file "bug_report.json" - Edit this file - Fill in the file)
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
+GitHub (Write a commit  massage and press "Commit changes")
+20. Синхронизировать внешний и локальный репозиторий JSON:
+$ git pull
